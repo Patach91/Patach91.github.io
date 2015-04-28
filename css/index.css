@@ -1,0 +1,47 @@
+body{
+	background-image:url("../img/fd.jpg");
+	background-repeat: no-repeat;
+  	background-size: 100% 100%;
+  	background-attachment: fixed;
+  	line-height:35px;
+  	font-weight:bold;
+  	color:black;
+}
+
+.dropdown-menu a{
+	background-color:white;
+	color:black !important;
+}
+
+h1{
+	color:#9d9d9d;
+}
+
+img{
+	height:70%;
+	width:70%;
+}
+
+h2{
+	text-align:center;
+	margin-bottom:3%;
+	margin-top:5%;
+	border:3px solid black;
+	border-radius:0%;
+}
+
+#text{
+	text-align:right;
+}
+#text2{
+	text-align:center;
+}
+
+#footer{
+	background:black;
+	padding:2%;
+	text-align: center;
+	font-family: Blackletter ;
+	color: #CCEEFF;
+	text-shadow: 0px 0px 10px white;
+}
