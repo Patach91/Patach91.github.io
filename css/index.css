@@ -5,7 +5,11 @@ html, body{
 	width:100%;
 }
 .cv{
-	min-height:70%;
+	min-height:100%;
+}
+
+.container-fluid{
+	min-height:100%;
 }
 
 body{
