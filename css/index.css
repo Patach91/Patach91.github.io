@@ -58,13 +58,12 @@ h2{
 }
 
 #footer{
-	margin-top:10%;
-	position:absolute;
+	position:fixed;
 	bottom:0;
 	left:0;
 	width:100%;
 	background:black;
-	padding:2%;
+	padding:1%;
 	text-align: center;
 	font-family: Blackletter ;
 	color: #CCEEFF;
