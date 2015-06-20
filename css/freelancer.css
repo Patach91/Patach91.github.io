@@ -291,6 +291,7 @@ section.success a.active {
     margin-left:auto;
     margin-right:auto;
 }
+
 .bouttonenvoyer:hover,
 .bouttonenvoyer:focus,
 .bouttonenvoyer:active,
@@ -309,6 +310,7 @@ section.success a.active {
     margin-bottom: 0;
     padding-bottom: .5em;
     border-bottom: 1px solid #00FA9A;
+    background-color:white;
 }
 
 .floating-label-form-group input,
