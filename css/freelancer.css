@@ -27,7 +27,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color:#00FA9A;
+    color:#00CCCC;
 }
 
 h1,
@@ -68,7 +68,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color:#00FA9A;
+    background-color:#00CCCC;
 }
 
 hr.star-primary {
@@ -87,7 +87,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background:#00FA9A;
+    background:#00CCCC;
 }
 
 header .container {
@@ -180,13 +180,14 @@ section {
 }
 
 section h2 {
-    margin: 0;
+    text-align:center;
     font-size: 3em;
+    margin-bottom:4%;
 }
 
 section.success {
     color: #fff;
-    background:#00FA9A;
+    background:#00CCCC;
 }
 
 section.success a,
@@ -279,14 +280,14 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color:#00FA9A;
+    color:#00CCCC;
     background: #fff;
 }
 
 .bouttonenvoyer{
-    border: solid 2px #00FA9A;
+    border: solid 2px #00CCCC;
     color:black;
-    background: #00FA9A;
+    background: #00CCCC;
     display:block;
     margin-left:auto;
     margin-right:auto;
@@ -297,7 +298,7 @@ section.success a.active {
 .bouttonenvoyer:active,
 .bouttonenvoyer.active {
     border: solid 2px black;
-    color:#00FA9A;
+    color:#00CCCC;
     background: black;
     display:block;
     margin-left:auto;
@@ -309,7 +310,7 @@ section.success a.active {
     position: relative;
     margin-bottom: 0;
     padding-bottom: .5em;
-    border-bottom: 1px solid #00FA9A;
+    border-bottom: 1px solid #00CCCC;
     background-color:white;
 }
 
@@ -346,7 +347,7 @@ section.success a.active {
 
 .floating-label-form-group::not(:first-child) {
     padding-left: 14px;
-    border-left: 1px solid #00FA9A;
+    border-left: 1px solid #00CCCC;
 }
 
 .floating-label-form-group-with-value label {
@@ -359,7 +360,7 @@ section.success a.active {
 }
 
 form .row:first-child .floating-label-form-group {
-    border-top: 1px solid #00FA9A;
+    border-top: 1px solid #00CCCC;
 }
 
 .form-control{
