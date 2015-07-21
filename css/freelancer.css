@@ -43,8 +43,10 @@ h6,
     background-color:black;
 }
 
-.page-scroll{
+.page-scroll,
+.page-scroll:hover{
     background-color:black;
+    color:white;
 }
 
 hr.star-light,
