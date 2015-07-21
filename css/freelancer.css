@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #00CCCC;
+    color:white;
 }
 
 h1,
@@ -355,16 +355,16 @@ footer h3 {
 }
 
 footer .footer-above {
-    padding-top: 50px;
+    padding-top: 25px;
     background-color: black;
 }
 
 footer .footer-col {
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 
 footer .footer-below {
-    padding: 25px 0;
+    padding: 0;
     background-color: black;
 }
 
