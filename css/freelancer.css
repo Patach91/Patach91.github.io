@@ -46,45 +46,6 @@ h6,
     background-color:black;
 }
 
-hr.star-light,
-hr.star-primary {
-    margin: 25px auto 30px;
-    padding: 0;
-    max-width: 250px;
-    border: 0;
-    border-top: solid 5px;
-    text-align: center;
-}
-
-hr.star-light:after,
-hr.star-primary:after {
-    content: "\f005";
-    display: inline-block;
-    position: relative;
-    top: -.8em;
-    padding: 0 .25em;
-    font-family: FontAwesome;
-    font-size: 2em;
-}
-
-hr.star-light {
-    border-color: #fff;
-}
-
-hr.star-light:after {
-    color: #fff;
-    background-color: #FF9900;
-}
-
-hr.star-primary {
-    border-color: black;
-}
-
-hr.star-primary:after {
-    color: black;
-    background-color: #fff;
-}
-
 .img-centered {
     margin: 0 auto;
 }
