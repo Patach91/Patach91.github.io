@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/page.css">
+    <title>BOOTSTRAP</title>
+  </head>
+<body>
+<!--MENU NAVIGATION-->
+  <div class="navbar navbar-inverse">
+    <div class="navbar-inner">
+      <ul class="nav nav-pills">
+         <li role="presentation" class="active">
+            <a href="#">Accueil</a>
+         </li>
+         <li role="presentation">
+            <a href="https://www.youtube.com/?hl=fr&gl=FR">Youtube</a>
+         </li>
+         <li role="presentation">
+            <a href="https://www.google.fr/">Google</a>
+        </li>
+        <li role="presentation">
+            <a href="https://fr-fr.facebook.com/">Facebook</a>
+        </li>
+        <li role="presentation">
+            <a href="http://www.footmercato.net/">Footmercato</a>
+        </li>
+        <li role="presentation">
+            <a href="https://www.github.com/Patach91">Github</a>
+        </li>
+        <li role="presentation">
+            <a href="http://www.codecademy.com/?locale_code=fr">Codecademy</a>
+        </li>
+        <li role="presentation">
+            <a href="http://www.codecombat.com/">Codecombat</a>
+        </li>
+        </ul>
+    </div>
+</div>
+
+<!--SLIDE-->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="1500">
+
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+<!--IMAGE SLIDE-->
+<div class="carousel-inner" role="listbox">
+  <div class="item active">
+    <img src="img/slide1.jpg" alt="">
+  </div>
+  <div class="item">
+    <img src="img/slide2.jpg" alt="">
+  </div>
+  <div class="item">
+      <img src="img/slide3.jpg" alt="">
+  </div>
+</div>
+
+<!--BOUTTON SLIDE-->
+<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true">
+  </span>
+  <span class="sr-only">
+  </span>
+</a>
+<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true">
+  </span>
+  <span class="sr-only">
+  </span>
+</a>
+</div>
+
+
+<div class="container">
+<div class="row">
+<div class="col-md-5">
+</div>
+<div class="col-md-2">
+<!--MODAL-->
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+      Mot de la fin(Cliquez)
+    </button>
+
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+    <div class="modal-content">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Voila un modal</h4>
+    </div>
+    <div class="modal-body">
+    <div class="container-fluid">
+    <div class="row">
+    <div class="col-md-6">Bootstrap c'est de la patate!!!!</div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-primary btn-lg" data-dismiss="modal">Fermer</button>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+</div>
+</div>
+</div>
+<div class="col-md-5"></div>
+
+<!--PIED DE PAGE-->
+<div id="footer">
+  <div class="copy">
+    <p>Copyright ©, Tout droit résèrvés ! ACHOURI Ilies 2015</p>
+  </div>
+</div>    
+
+  <script src="bootstrap/jquery/jquery-1.11.2.min.js"></script> 
+  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+  
+ 
+</body>
+</html>

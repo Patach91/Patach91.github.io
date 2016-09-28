@@ -1,0 +1,18 @@
+body{
+}
+
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {	
+    margin: auto;
+  }
+
+#footer{
+	bottom:0;
+	left:0;
+	background:black;
+	padding:2%;
+	text-align: center;
+	font-family: Blackletter ;
+	color: #CCEEFF;
+	text-shadow: 0px 0px 10px rgba(255,255,255,0.6), 0px 0px 30px rgba(255,255,255,0.4), 0px 0px 50px rgba(255,255,255,0.3), 0px 0px 180px rgba(255,255,255,0.3);
+}

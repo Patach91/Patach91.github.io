@@ -3,7 +3,6 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
 body {
     overflow-x: hidden;
 }
@@ -60,8 +59,11 @@ header .container {
     padding-top: 60px;
     padding-bottom: 50px;
 }
-
 header img {
+    display: block;
+    margin: 0 auto 20px;
+}
+#competence img {
     display: block;
     margin: 0 auto 20px;
 }
@@ -438,4 +440,11 @@ footer .footer-below {
 .img-partenaire{
     margin-left: auto;
     margin-right: auto;
+}
+
+#portfolio{
+    background:#FF9900;
+}
+h2{
+    text-align:center;
 }
