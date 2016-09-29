@@ -1,0 +1,15 @@
+body{
+	line-height:20px;
+}
+
+h1{
+	color:black;
+	text-align:center;
+}
+
+input{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
