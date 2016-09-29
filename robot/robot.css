@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #123752;
+  background:blue;
   height: 100%;
 }
 
@@ -12,21 +12,58 @@ body {
   position: relative;
   height: 78vh;
   width: 20vh;
-  margin: 0 auto;
+  margin-left:10%;
   -webkit-animation: robot 0.7s infinite ease-in-out;
           animation: robot 0.7s infinite ease-in-out;
   z-index: 2;
+  margin-top:4%;
 }
+
+.voila {
+  margin-left:5%;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    -webkit-animation-iteration-count: 3; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+    animation-direction: alternate;    
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   {background-color:blue; left:0px; top:0px;}
+    25%  {background-color:blue; left:800px; top:0px;}
+    50%  {background-color:blue; left:800px; top:0px;}
+    75%  {background-color:blue; left:0px; top:0px;}
+    100% {background-color:blue; left:0px; top:0px;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {background-color:blue; left:0px; top:0px;}
+    25%  {background-color:blue; left:800px; top:0px;}
+    50%  {background-color:blue; left:800px; top:0px;}
+    75%  {background-color:blue; left:0px; top:0px;}
+    100% {background-color:blue; left:0px; top:0px;}
+}
+
 #robot div {
   position: absolute;
   -webkit-transform-origin: 50% 0;
+      -ms-transform-origin: 50% 0;
           transform-origin: 50% 0;
 }
 #robot .r div {
-  background: #29516D;
+  background: black;
 }
 #robot .l div {
-  background: #326384;
+  background:black;
 }
 #robot .leg.r, #robot .arm.l {
   -webkit-animation: trans 0.7s 0.35s infinite linear;
@@ -43,10 +80,10 @@ body {
   height: 10vh;
   margin: 0 auto;
   -webkit-transform-origin: 20% 80%;
+      -ms-transform-origin: 20% 80%;
           transform-origin: 20% 80%;
   -webkit-animation: head 0.7s infinite linear;
           animation: head 0.7s infinite linear;
-  background: #326384;
 }
 #robot .arm {
   left: 5vh;
@@ -61,6 +98,7 @@ body {
   height: 10vh;
   box-sizing: border-box;
   -webkit-transform: rotate(5deg);
+      -ms-transform: rotate(5deg);
           transform: rotate(5deg);
   -webkit-animation: arms1 0.7s infinite linear;
           animation: arms1 0.7s infinite linear;
@@ -99,9 +137,9 @@ body {
   position: relative;
   width: 22vh;
   height: 3vh;
-  margin: 0 auto;
+  margin-left:10%;
   border-radius: 50%;
-  background: #05314f;
+  background:black;
   -webkit-animation: shadow 0.7s infinite linear;
           animation: shadow 0.7s infinite linear;
   z-index: 1;
@@ -284,12 +322,8 @@ body {
             transform: scale(0.98);
   }
 }
-a {
-  color: #326384;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  display: block;
-  text-align: center;
-  margin: 5%;
-  font-weight: bold;
+
+
+h1{
+  text-align:center;
 }
